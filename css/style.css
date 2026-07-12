@@ -9703,3 +9703,22 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+  @media (max-width:768px){
+
+    #about-section .container,
+    #resume-section .container{
+        padding:0 20px;
+    }
+
+    .img-about{
+        margin-left:8px;
+    }
+
+    .heading-section h2,
+    .heading-section p{
+        padding-left:5px;
+    }
+
+}
